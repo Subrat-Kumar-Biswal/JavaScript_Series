@@ -57,10 +57,28 @@ console.log(typeof myFunction ); // Object fuction
 
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack (primitive), Heap (Non-primitive)
 
+let myName = "chandan"
 
+let anotherName = myName
+anotherName = "subrat" 
 
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : "chandan@gmail.com",
+    upi:"363252@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "subrat@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 /*
@@ -83,3 +101,5 @@ Object (host and does
 not implement [[Call]])	                                    Implementation-defined except may
                                                      not be "undefined", "boolean", "number", or "string
 */
+
+
