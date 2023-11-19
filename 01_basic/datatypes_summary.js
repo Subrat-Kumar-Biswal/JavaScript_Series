@@ -56,11 +56,18 @@ console.log(typeof myFunction ); // Object fuction
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+
+
+
+
+
+
+
 /*
                            Table 20 — typeof Operator Results
 
       Type of val	                                                    Result
-      
+
 Undefined	                                                         "undefined"
 Null	                                                               "object"
 Boolean	                                                               "boolean"
