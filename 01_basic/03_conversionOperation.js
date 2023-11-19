@@ -5,7 +5,7 @@ let score = "chan"
 
 
 let valueInNumber =  Number(score)
-// console.log(typeof valueInNumber)
+console.log(typeof valueInNumber)
 // console.log(valueInNumber)      //NaN - Not a Number
 
 
