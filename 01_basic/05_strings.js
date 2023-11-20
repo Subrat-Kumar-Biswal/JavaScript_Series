@@ -24,11 +24,13 @@ console.log(gameName.slice(-3,-1));
 
 console.log(gameName.substring(0,4));   // not give negative value 
 
+
 const newStringOne = "      subrat     "
 console.log(newStringOne)
 console.log(newStringOne.trim())     //(It work on white space or line terminate)remove space starting and ending
 console.log(newStringOne.trimStart())     //remove space starting space
 console.log(newStringOne.trimEnd())     //remove space at ending
+
 
 
 const url = "https://subrat.com"
@@ -39,3 +41,7 @@ console.log(url.includes('subrat'))   //return ture substring is present
 
 const str = 'The quick_brown fox_ jumps over _the lazy dog.';
 console.log(str.split('_'));
+
+let friend = "chandan"
+let friend1 = "jarvish"
+console.log(friend.concat(" is a friend of the ",friend1,"ok."));
