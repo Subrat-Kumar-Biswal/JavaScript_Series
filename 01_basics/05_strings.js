@@ -22,12 +22,12 @@ console.log(gameName.indexOf('a'));
 console.log(gameName.slice(0,3));     // in slice we give -ve value
 console.log(gameName.slice(-3,-1));   
 
-console.log(gameName.substring(0,4));   // not give negative value 
+console.log(gameName.substring(0,4));   // not take a negative value  (chan)
 
 
 const newStringOne = "      subrat     "
 console.log(newStringOne)
-console.log(newStringOne.trim())     //(It work on white space or line terminate)remove space starting and ending
+console.log(newStringOne.trim())     //(It work on white space or line terminate) remove space starting and ending
 console.log(newStringOne.trimStart())     //remove space starting space
 console.log(newStringOne.trimEnd())     //remove space at ending
 
