@@ -21,7 +21,7 @@ const real_another_array = another_array.flat(Infinity)  // flat() => return all
 // console.log(Array.isArray("chandan"))   // isArray => check it is array or not, return - false
 // console.log(Array.from("chandan"))      // from => convert anything in the array
 // console.log(Array.from({name: "chandan"}))  // form not convert Object into an array  = it return [] (interesting)
-// console.log(Array.from("4515"));
+ console.log(Array.from("4515"));
 
 let score1 = 100
 let score2 = 200
