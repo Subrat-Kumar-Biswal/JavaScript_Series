@@ -49,13 +49,48 @@ const users = [
 ]
 
 users[1].email
-console.log(braveUser);
+// console.log(braveUser);
 
-console.log(Object.keys(braveUser));    // return keys  ,the type is(array)
-console.log(Object.values(braveUser));  // return values
-console.log(Object.entries(braveUser)); // retrun array in the array ,[ [ 'id', '452e' ], [ 'name', 'chadnan' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(braveUser));    // return keys  ,the type is(array)
+// console.log(Object.values(braveUser));  // return values
+// console.log(Object.entries(braveUser)); // retrun array in the array ,[ [ 'id', '452e' ], [ 'name', 'chadnan' ], [ 'isLoggedIn', false ] ]
 
 
 
 console.log(braveUser.hasOwnProperty('isLoggedIn'));   // hasOwnProperty => return if presetnt
 
+
+// Destructureing 
+
+const course = {
+    coursename: "js",
+    price: "999",
+    courseduration: "3 month"
+}
+
+// course.courseduration
+
+const {courseduration} = course  // another method to access
+// console.log(courseduration);
+const {courseduration: duration} = course  // in this line we give our own name to the key.
+console.log(duration);
+
+
+// const navbar = ({company}) => {  //react
+
+// }
+// navbar(company = "chandan")
+
+// API concept
+
+// {  // JSON FORMAT
+//     "name": "chandan",
+//     "location": "berhampur",
+//     "email": "chandan@gmail.com"
+// }
+
+[
+    {},
+    {},
+    {}
+]
