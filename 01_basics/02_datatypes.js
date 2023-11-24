@@ -29,3 +29,4 @@ console.log(typeof "chandan");
 console.log(typeof age);
 console.log(typeof null);  //type is object
 console.log(typeof undefined); //type is undefind
+console.log(typeof 6444644654n)  //type bigint
