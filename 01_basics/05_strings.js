@@ -13,16 +13,16 @@ console.log(gameName[0]);
 console.log(gameName.__proto__);   //{}
 
 
-console.log(gameName.charAt(5));
+console.log(gameName.charAt(5));    // it retun the character at index ()
 console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));      
-console.log(gameName.indexOf('a'));
+console.log(gameName.indexOf('a'));  // it return the perticular index of a character
 
 
-console.log(gameName.slice(0,3));     // in slice we give -ve value
+console.log(gameName.slice(0,3));     // in slice we give -ve value also
 console.log(gameName.slice(-3,-1));   
 
-console.log(gameName.substring(0,4));   // not take a negative value  (chan)
+console.log(gameName.substring(0,4));   // not take a negative value  (chan) , Not including end index
 
 
 const newStringOne = "      subrat     "
@@ -36,11 +36,11 @@ console.log(newStringOne.trimEnd())     //remove space at ending
 const url = "https://subrat.com"
 console.log(url.replace('subrat','chandan'))  //replace the value in the string
 
-console.log(url.includes('subrat'))   //return ture substring is present
+console.log(url.includes('subrat'))   //return ture/false substring is present or not .
 
 
 const str = 'The quick_brown fox_ jumps over _the lazy dog.';
-console.log(str.split('_'));
+console.log(str.split('_'));  //split the string where  present (_) 
 
 let friend = "chandan"
 let friend1 = "jarvish"
