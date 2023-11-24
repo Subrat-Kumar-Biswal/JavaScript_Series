@@ -3,8 +3,8 @@ const repoCount = 1
 
 // console.log(name + repoCount + "value");
 
-//morden string interpolation
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//string interpolation
+//morden string interpolation   or  template lateral
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//string interpolation  
 
 //declaration
 const gameName = new String ('chandan')
