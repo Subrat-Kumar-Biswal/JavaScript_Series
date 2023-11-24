@@ -26,7 +26,7 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2)  //assign() => method is use to combine two object.
+// const obj3 = Object.assign({}, obj1, obj2)  // assign() => method is use to combine two object.
 // console.log(obj3);     //{} => target & ob1,obj2 => source.
 
 const obj3 = {...obj1, ...obj2}  // spread() => combine two string
