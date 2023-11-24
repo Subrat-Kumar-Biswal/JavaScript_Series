@@ -1,4 +1,4 @@
-// singleton
+// singleton  => classes which can be instantiated once, and can be accessed globally
 
 // object literals  
 
