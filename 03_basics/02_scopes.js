@@ -44,16 +44,17 @@ if(true){
 
 // ++++++++++++++++++++++  interesting ++++++++++++
 
+console.log(addone(5))  // return 6
 
-console.log(addone(5))           // not return anything because  it just return not assign the variable
 function addone(num){
   return num + 1
 }
 
+// console.log(addone(5))     
 
 
-AddTwo(4)   // 'AddTwo' before initialization
+AddTwo(4)   // 'AddTwo' before initialization 
 
-const AddTwo = function (num){         // it is experssion  different type to write function
+const AddTwo = function (num){         // it is experssion  - different type to write function 
   return num  + 2
 }
