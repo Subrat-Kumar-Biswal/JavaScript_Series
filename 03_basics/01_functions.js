@@ -6,10 +6,9 @@ function sayMyName(){
 // call 
 sayMyName()    // sayMyName => referance , sayMyName() => execution
 
-// function addTwoNumber(num1, num2){    // (num1, num2) => num1 & num2 are parameter.
-
+ function addTwoNumber(num1, num2){    // (num1, num2) => num1 & num2 are parameter.
 //     console.log(num1 + num2)
-// }
+ }
 // const result = addTwoNumber(2, 5)  // 7   (2, 5) => here 2 and 5 is argument.
 // addTwoNumber(2, "5")  // 25  
 // addTwoNumber(2, null) // 2
