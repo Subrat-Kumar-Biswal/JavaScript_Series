@@ -15,6 +15,6 @@ console.log("02" > 1);   //true
 // console.log(undefined >= 0);  //false
 // console.log(undefined <= 0);  //false
 
-// ===  it not compare the one datatype to other
+// ===  it not compare the one datatype to other(or ) it compare value and the datatype also .
 
 console.log("2" === 2);    //false
