@@ -32,7 +32,7 @@ if(temprature === 50){
 
 const score = 200
 
-// if(score > 100){
+// if(score > 100){   // block scope
 //     const power = "fly"
 //     console.log(`User power: ${power}`);
 // }
