@@ -60,7 +60,7 @@ users[1].email
 console.log(braveUser.hasOwnProperty('isLoggedIn'));   // hasOwnProperty => return if presetnt
 
 
-// Destructuring 
+// Destructuring  object
 
 const course = {
     coursename: "js",
