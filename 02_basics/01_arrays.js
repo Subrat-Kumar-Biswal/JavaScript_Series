@@ -29,6 +29,7 @@ myArray.shift()         //Delete remove the first element in the array
 
 // const newArray = myArray.join()   //it convert array to string 
 // console.log(typeof newArray);    //String
+// console.log( newArray);    
 // console.log(myArray);
 
 
