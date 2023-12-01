@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: #212121; color: #fff">
+    
+</body>
+<script>
+
+        // giving class and id into document in browser
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    // div.id = "Name"
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    div.setAttribute("title", "generate a title")  // and add title
+    div.style.backgroundColor = "green"   // add style
+    div.style.padding = "12px"
+// attach to file 
+    // div.innerText = "js is best"
+
+    const addText = document.createTextNode("js is the best")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+
+</html>
