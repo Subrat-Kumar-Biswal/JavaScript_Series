@@ -1,0 +1,47 @@
+* {
+    background-color: grey;
+    font-family: 'poppins';
+
+}
+
+input {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(33, 77, 78);
+    text-align: center;
+    margin-left: 90px;
+    font-weight: 900;
+    font-size: large;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#results {
+    font-weight: 900;
+    font-size: large;
+    margin: 50px;
+    color: wheat;
+}
+
+#weight-guide {
+    margin: 10px 50px;
+    color: rgb(37, 33, 32);
+}
+
+.guide {
+    font-weight: 900;
+    color: wheat;
+    font-size: large;
+}
