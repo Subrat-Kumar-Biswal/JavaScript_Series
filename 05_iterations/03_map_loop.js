@@ -28,7 +28,7 @@ const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United State of America")
 map.set('Fr', "France")
-map.set('IN', "India")   //(not print) Map is print only unique entrues
+map.set('IN', "India")   //(not print) Map is print only unique entries
 
 // console.log(map);
 
