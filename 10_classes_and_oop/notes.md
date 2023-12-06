@@ -21,3 +21,6 @@ Abstraction
 Encapsulation
 Inheritance
 Polymorphism
+
+
+## async function always return promise
