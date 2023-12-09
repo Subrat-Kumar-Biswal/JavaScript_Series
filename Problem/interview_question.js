@@ -11,6 +11,15 @@
 // [1000343490884773].toString().split('').length
 
 
-console.log('age is ',age);
-var age = 52;
-console.log("aage si s",age);
+// console.log('age is ',age);
+// var age = 52;
+// console.log("aage si s",age);
+
+function init() {
+    let name = "chrome";
+    function displayName() {
+      console.log(name);
+    }
+    displayName()
+  }
+  init()
