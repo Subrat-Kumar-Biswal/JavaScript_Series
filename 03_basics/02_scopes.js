@@ -12,7 +12,7 @@ if(true){
 
 // console.log(a)
 // console.log(b)
-// console.log(c)
+// console.log(c)  // global scope
 
 
 // nested Scope
